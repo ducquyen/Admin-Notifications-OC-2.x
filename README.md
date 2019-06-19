@@ -1,32 +1,32 @@
-# Admin Notifications / Уведомления администратора (Telegram, Viber)
+Module notifications store administrators Opencart (OcStore) about the new:
 
-Модуль уведомлений администраторов магазина Opencart (OcStore) о новом:
-1) заказе
-2) покупателе
-3) партнере
-4) отзыве
-5) возврате
+     ordering
+     the buyer
+     partner
+     recall
+     return
 
-***Возможности:***
-1. Гибкая, мультиязычная настройка шаблона уведомления
-2. Гибкая настройка отправки уведомлений для каждого администратора - например, если нужно уведомлять только одного администратора об возвратах, установите только у него "галочку"
-3. Возможность настройки уведомления для каждого из статусов заказа
-3. Возможность установки логгирования ошибок запросов (рекомендуется вкльчать только на этапе тестирования)
-4. Настройка действия при длинном сообщении (обрезать или разбивать на несколько). Добавлено в связи с ограничением длины символов в одном сообщении.
-5. Возможность установки таймаута соединения (времени в секундах подключения к серверам). Добавлено для предотвращения длительного "зависания" во время оформления заказа, регистрации и тд в случае недоступности серверов месседжеров.
+ Opportunities:
 
-*Распространяется:* "как есть" (as is).
+     Flexible, multilingual notification template setting
+     Flexible configuration of sending notifications for each administrator - for example, if you need to notify only one administrator about returns, check only the checkbox from him
+     Ability to customize notifications for each order status
+     Ability to set logging of query errors (it is recommended to install it only during the testing phase)
+     Setting actions for a long message (cut or split into several).  Added due to limited character length in one message.
+     Ability to set connection timeout (time in seconds to connect to servers).  Added to prevent a long "freeze" during checkout, registration, etc. in case of unavailability of messenger servers.
 
-*Версия Opencart (OcStore):* 2.3
+ Distributed: "as is" (as is).
 
-*Техподдержка* в свободное время
+ Opencart (OcStore) version: 2.3
 
+ Technical support in free time
 
-*Установка* -
-Вариант 1:
-1. Скопируйте содержимое директории upload в корневую директорию сайта.
-2. Зайдите в Дополнения - Модули и активируйте его
+ Installation - Option 1:
 
-Вариант 2:
-1. Установите архив через встроенный Ocmod
-2. Зайдите в Дополнения - Модули и активируйте его
+     Copy the contents of the upload directory to the root directory of the site.
+     Go to Add-ons - Modules and activate it.
+
+ Option 2:
+
+     Install the archive via the built-in Ocmod
+     Go to Add-ons - Modules and activate it.
